@@ -1,0 +1,13 @@
+USING FAKER
+=================
+
+import { faker } from '@faker-js/faker';
+
+//DEPRECATED
+const randomName = faker.name.findName(); // Rowan Nikolaus
+const randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+const randomCard = faker.helpers.createCard(); // An object representing a random contact card containing many properties
+
+//USE THIS INSTEAD
+const female = faker.person.fullName({sex: 'female'})
+const male = faker.person.fullName({sex: 'male'})
