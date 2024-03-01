@@ -1,5 +1,5 @@
 To install project dependencies run
-`npm i` in the command prompt
+`npm i` in the command prompt in the cwd
 
 Then to run the project, in the terminal :
 `npm run dev`
