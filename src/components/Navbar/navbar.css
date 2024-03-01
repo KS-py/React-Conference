@@ -1,0 +1,83 @@
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #333;
+	gap: 10;
+	height: 12vh;
+}
+
+.event-title > h1{
+	font-family: Cambria, cursive;
+	font-size: 2em;
+	padding: 10px 10px;
+	color:  white;
+}
+
+.event-title > h1:hover{
+	cursor: pointer;
+}
+
+.event-title{
+	display:  flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items:  center;
+}
+
+.event-title > img{
+	width: 70px;
+	height: 70px;
+}
+
+.buttons{
+}
+
+.link{
+	color: white;
+    text-decoration: none;
+}
+
+.buttons > button{
+	height: 5vh;
+	width:  8vw;
+	margin: 25px 5px;
+	color:  white;
+	background-color: yellowgreen;
+	border: none;
+	border-radius:3px;
+}
+
+.buttons > button:hover{
+	background-color: limegreen;
+	transition: 0.2s;
+	font-weight: 500;
+}
+
+.logo{
+	animation: App-logo-spin infinite 5s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Font-color{
+	0%{
+		color: rgba(0, 0, 50, 255);
+	}
+	10%{
+		color: rgb(0, 0, 75, 200);
+	}
+	50%{
+		color: rgb(0, 0, 100, 100);		
+	}
+	100%{
+		color: rgb(0, 0, 150, 50);		
+	}
+}

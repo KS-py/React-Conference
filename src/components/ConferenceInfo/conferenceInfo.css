@@ -1,0 +1,39 @@
+.main-area{
+	margin:50px auto;
+	background-color: rgba(0, 0, 200, 0.6);
+	border-radius: 10px;
+	border: 2px rgba(0, 0, 200, 0.4);
+	border-style: inset;
+	width: 80vw;
+	height: 30vh;
+}
+
+.conference-text{
+	font-family: Verdana;
+	height: 15vh;
+}
+
+.conference-text > p{
+	font-size: 1.2em;
+	text-align: center;
+	color:  white;
+	padding-top: 10px
+}
+
+.button-area{
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+}
+
+.button-area > button{
+	width: 10vw;
+	height:  8vh;
+	background-color: mediumpurple;
+	color:  white;
+	border-radius:  10px 5px;
+}
+
+button:hover{
+	cursor: pointer;
+}
